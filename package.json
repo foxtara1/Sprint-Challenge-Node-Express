@@ -1,0 +1,31 @@
+{
+  "name": "node-express-sprint-challenge",
+  "version": "1.0.0",
+  "description": "Please open the `Review.md` file and answer the questions.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeepLot/Sprint-Challenge-Node-Express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeepLot/Sprint-Challenge-Node-Express/issues"
+  },
+  "homepage": "https://github.com/DeepLot/Sprint-Challenge-Node-Express#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "helmet": "^3.12.0",
+    "knex": "^0.14.4",
+    "morgan": "^1.9.0",
+    "sqlite3": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
